@@ -1,0 +1,23 @@
+{
+  "name": "jobify-ai-root",
+  "version": "1.0.0",
+  "description": "Jobify AI — Intelligent Mock Interview Platform",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "mock-interview",
+    "ai",
+    "gemini",
+    "speech-recognition",
+    "mediapipe",
+    "mongodb",
+    "react",
+    "express"
+  ],
+  "author": "Jobify AI Team",
+  "license": "MIT"
+}
